@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The Junction Dubai - A vibrant performing arts space made by performers for performers. Celebrating and supporting all local and regional talent.">
+    <meta name="keywords" content="Dubai theater, performing arts, live performance, cultural events, artists, Dubai arts scene">
+    <meta name="author" content="The Junction Dubai">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="The Junction Dubai - Performing Arts Space">
+    <meta property="og:description" content="A vibrant performing arts space made by performers for performers">
+    <meta property="og:url" content="https://www.thejunctiondubai.com/">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="The Junction Dubai - Performing Arts Space">
+    <meta property="twitter:description" content="A vibrant performing arts space made by performers for performers">
+    
+    <title>The Junction Dubai - Performing Arts Space</title>
+    
+    <!-- Preload critical fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- Structured Data for Local Business -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "PerformingArtsTheater",
+      "name": "The Junction Dubai",
+      "description": "A performing arts space in Dubai made by performers for performers",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Dubai",
+        "addressCountry": "AE"
+      },
+      "url": "https://www.thejunctiondubai.com/",
+      "sameAs": [
+        "https://www.instagram.com/thejunctiondubai",
+        "https://www.facebook.com/thejunctiondubai"
+      ]
+    }
+    </script>
+</head>
+<body>
+    <!-- Language Toggle (Hidden by default, visible when JS loads) -->
+    <div class="language-toggle" id="languageToggle">
+        <button class="lang-btn active" data-lang="en">EN</button>
+        <button class="lang-btn" data-lang="ar">العربية</button>
+    </div>
+
+    <!-- Loading Screen -->
+    <div class="loading-screen" id="loadingScreen">
+        <div class="loading-animation">
+            <div class="stage-lights"></div>
+            <p data-en="Welcome to The Junction" data-ar="مرحباً بكم في ذا جانكشن">Welcome to The Junction</p>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h1 class="logo-text">THE JUNCTION</h1>
+                <span class="logo-subtitle" data-en="Dubai" data-ar="دبي">Dubai</span>
+            </div>
+            
+            <div class="nav-menu" id="navMenu">
+                <a href="#home" class="nav-link" data-en="Home" data-ar="الرئيسية">Home</a>
+                <a href="#about" class="nav-link" data-en="About Us" data-ar="من نحن">About Us</a>
+                <a href="#stage" class="nav-link" data-en="On Our Stage" data-ar="على مسرحنا">On Our Stage</a>
+                <a href="#workshops" class="nav-link" data-en="Workshops" data-ar="ورش العمل">Workshops</a>
+                <a href="#contact" class="nav-link" data-en="Contact" data-ar="تواصل معنا">Contact</a>
+            </div>
+            
+            <div class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section class="hero" id="home">
+            <div class="hero-video-container">
+                <div class="hero-video-placeholder">
+                </div>
+            </div>
+            
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        <span class="title-line" data-en="Made by Performers" data-ar="صُنع من قِبل الفنانين">Made by Performers</span>
+                        <span class="title-line highlight" data-en="For Performers" data-ar="للفنانين">For Performers</span>
+                    </h1>
+                    <p class="hero-subtitle" data-en="A vibrant performing arts space celebrating and supporting all local and regional talent in Dubai" data-ar="مساحة فنون أداء نابضة بالحياة تحتفل بجميع المواهب المحلية والإقليمية وتدعمها في دبي">
+                        A vibrant performing arts space celebrating and supporting all local and regional talent in Dubai
+                    </p>
+                    <div class="hero-buttons">
+                        <button class="btn btn-primary" data-en="Explore Our Stage" data-ar="استكشف مسرحنا">Explore Our Stage</button>
+                        <button class="btn btn-secondary" data-en="Join Our Community" data-ar="انضم إلى مجتمعنا">Join Our Community</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="scroll-indicator">
+                <div class="scroll-arrow"></div>
+                <span class="scroll-text" data-en="Scroll to explore" data-ar="مرر للاستكشاف">Scroll to explore</span>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about" id="about">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title" data-en="About The Junction" data-ar="عن ذا جانكشن">About The Junction</h2>
+                    <p class="section-subtitle" data-en="Where creativity meets community in the heart of Dubai" data-ar="حيث تلتقي الإبداع مع المجتمع في قلب دبي">
+                        Where creativity meets community in the heart of Dubai
+                    </p>
+                </div>
+                
+                <div class="about-grid">
+                    <div class="about-card card-1">
+                        <div class="card-icon">🎭</div>
+                        <h3 data-en="Our Mission" data-ar="مهمتنا">Our Mission</h3>
+                        <p data-en="To create an authentic space where performers can showcase their talent, connect with audiences, and build lasting artistic relationships." data-ar="إنشاء مساحة أصيلة حيث يمكن للفنانين عرض مواهبهم والتواصل مع الجماهير وبناء علاقات فنية دائمة.">
+                            To create an authentic space where performers can showcase their talent, connect with audiences, and build lasting artistic relationships.
+                        </p>
+                    </div>
+                    
+                    <div class="about-card card-2">
+                        <div class="card-icon">🌟</div>
+                        <h3 data-en="Our Vision" data-ar="رؤيتنا">Our Vision</h3>
+                        <p data-en="To be Dubai's premier destination for diverse performing arts, fostering cultural exchange and celebrating the rich tapestry of regional talent." data-ar="أن نكون الوجهة الرائدة في دبي للفنون الأدائية المتنوعة، وتعزيز التبادل الثقافي والاحتفال بالنسيج الغني للمواهب الإقليمية.">
+                            To be Dubai's premier destination for diverse performing arts, fostering cultural exchange and celebrating the rich tapestry of regional talent.
+                        </p>
+                    </div>
+                    
+                    <div class="about-card card-3">
+                        <div class="card-icon">🤝</div>
+                        <h3 data-en="Our Community" data-ar="مجتمعنا">Our Community</h3>
+                        <p data-en="We support artists at every stage of their journey, providing a platform that nurtures growth, encourages experimentation, and celebrates artistic expression." data-ar="ندعم الفنانين في كل مرحلة من رحلتهم، ونوفر منصة تغذي النمو وتشجع التجريب وتحتفل بالتعبير الفني.">
+                            We support artists at every stage of their journey, providing a platform that nurtures growth, encourages experimentation, and celebrates artistic expression.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- On Our Stage Section -->
+        <section class="stage" id="stage">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title" data-en="On Our Stage" data-ar="على مسرحنا">On Our Stage</h2>
+                    <p class="section-subtitle" data-en="Discover the magic of live performance" data-ar="اكتشف سحر الأداء المباشر">
+                        Discover the magic of live performance
+                    </p>
+                </div>
+                
+                <div class="events-container">
+                    <div class="events-status">
+                        <div class="status-icon">🎪</div>
+                        <h3 data-en="Coming Soon" data-ar="قريباً">Coming Soon</h3>
+                        <p data-en="We're preparing something extraordinary for you. Stay tuned for our upcoming performances that will showcase the best of Dubai's artistic talent." data-ar="نحن نعد شيئًا استثنائيًا لك. ترقبوا عروضنا القادمة التي ستعرض أفضل المواهب الفنية في دبي.">
+                            We're preparing something extraordinary for you. Stay tuned for our upcoming performances that will showcase the best of Dubai's artistic talent.
+                        </p>
+                    </div>
+                    
+                    <div class="upcoming-placeholder">
+                        <div class="placeholder-grid">
+                            <div class="event-placeholder">
+                                <div class="event-image-placeholder drama-bg">
+                                    <div class="event-overlay">🎭</div>
+                                </div>
+                                <div class="event-details">
+                                    <h4>Featured Performance</h4>
+                                    <p>Date & Time TBA</p>
+                                    <span class="event-tag">Drama</span>
+                                </div>
+                            </div>
+                            <div class="event-placeholder">
+                                <div class="event-image-placeholder music-bg">
+                                    <div class="event-overlay">🎵</div>
+                                </div>
+                                <div class="event-details">
+                                    <h4>Workshop Series</h4>
+                                    <p>Registration Opens Soon</p>
+                                    <span class="event-tag">Music</span>
+                                </div>
+                            </div>
+                            <div class="event-placeholder">
+                                <div class="event-image-placeholder dance-bg">
+                                    <div class="event-overlay">💃</div>
+                                </div>
+                                <div class="event-details">
+                                    <h4>Community Showcase</h4>
+                                    <p>Auditions Upcoming</p>
+                                    <span class="event-tag">Dance</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Workshops Section -->
+        <section class="workshops" id="workshops">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title" data-en="Workshops & Training" data-ar="ورش العمل والتدريب">Workshops & Training</h2>
+                    <p class="section-subtitle" data-en="Develop your craft with industry professionals" data-ar="طور مهارتك مع المحترفين في الصناعة">
+                        Develop your craft with industry professionals
+                    </p>
+                </div>
+                
+                <div class="workshop-grid">
+                    <div class="workshop-card">
+                        <div class="workshop-icon">🎬</div>
+                        <h3 data-en="Acting Masterclass" data-ar="فئة رئيسية في التمثيل">Acting Masterclass</h3>
+                        <p data-en="Intensive workshops covering method acting, character development, and stage presence." data-ar="ورش عمل مكثفة تغطي طريقة التمثيل وتطوير الشخصيات والحضور على المسرح.">
+                            Intensive workshops covering method acting, character development, and stage presence.
+                        </p>
+                    </div>
+                    
+                    <div class="workshop-card">
+                        <div class="workshop-icon">🎵</div>
+                        <h3 data-en="Voice & Movement" data-ar="الصوت والحركة">Voice & Movement</h3>
+                        <p data-en="Develop vocal techniques and physical expression for powerful performances." data-ar="تطوير تقنيات صوتية والتعبير الجسدي للعروض القوية.">
+                            Develop vocal techniques and physical expression for powerful performances.
+                        </p>
+                    </div>
+                    
+                    <div class="workshop-card">
+                        <div class="workshop-icon">✍️</div>
+                        <h3 data-en="Playwriting Lab" data-ar="مختبر كتابة المسرحيات">Playwriting Lab</h3>
+                        <p data-en="Learn the craft of dramatic writing and bring your stories to life." data-ar="تعلم حرفة الكتابة الدرامية وأحي قصصك.">
+                            Learn the craft of dramatic writing and bring your stories to life.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gallery Section -->
+        <section class="gallery">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title" data-en="Experience The Junction" data-ar="تجربة ذا جانكشن">Experience The Junction</h2>
+                    <p class="section-subtitle" data-en="Glimpses of our vibrant performing arts community in action" data-ar="لمحات من مجتمعنا النابض بالحياة للفنون الأدائية في العمل">
+                        Glimpses of our vibrant performing arts community in action
+                    </p>
+                </div>
+                
+                <div class="gallery-grid">
+                    <div class="gallery-item large">
+                        <div class="gallery-image stage-performance">
+                            <div class="gallery-overlay">
+                                <h3 data-en="Live on Stage" data-ar="مباشر على المسرح">Live on Stage</h3>
+                                <p data-en="Captivating performances that move hearts" data-ar="عروض آسرة تحرك القلوب">Captivating performances that move hearts</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="gallery-item">
+                        <div class="gallery-image behind-scenes">
+                            <div class="gallery-overlay">
+                                <h3 data-en="Behind the Scenes" data-ar="خلف الكواليس">Behind the Scenes</h3>
+                                <p data-en="The magic happens here" data-ar="السحر يحدث هنا">The magic happens here</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="gallery-item">
+                        <div class="gallery-image workshop-action">
+                            <div class="gallery-overlay">
+                                <h3 data-en="Workshop Sessions" data-ar="جلسات ورش العمل">Workshop Sessions</h3>
+                                <p data-en="Learning and growing together" data-ar="نتعلم وننمو معاً">Learning and growing together</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="gallery-item">
+                        <div class="gallery-image community-moments">
+                            <div class="gallery-overlay">
+                                <h3 data-en="Community" data-ar="المجتمع">Community</h3>
+                                <p data-en="Artists supporting artists" data-ar="فنانون يدعمون فنانين">Artists supporting artists</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="gallery-item video-item">
+                        <div class="gallery-video">
+                            <div class="video-placeholder">
+                                <div class="play-button-large">
+                                    <svg width="40" height="40" viewBox="0 0 24 24" fill="none">
+                                        <path d="M8 5.14v13.72L19 12L8 5.14z" fill="currentColor"/>
+                                    </svg>
+                                </div>
+                                <div class="video-info">
+                                    <h3 data-en="The Junction Story" data-ar="قصة ذا جانكشن">The Junction Story</h3>
+                                    <p data-en="Discover our journey" data-ar="اكتشف رحلتنا">Discover our journey</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Newsletter Section -->
+        <section class="newsletter">
+            <div class="container">
+                <div class="newsletter-content">
+                    <h2 data-en="Stay Connected" data-ar="ابق على تواصل">Stay Connected</h2>
+                    <p data-en="Be the first to know about our upcoming performances, workshops, and community events." data-ar="كن أول من يعرف عن عروضنا القادمة وورش العمل والفعاليات المجتمعية.">
+                        Be the first to know about our upcoming performances, workshops, and community events.
+                    </p>
+                    
+                    <form class="newsletter-form" id="newsletterForm">
+                        <input type="email" placeholder="Enter your email address" data-en-placeholder="Enter your email address" data-ar-placeholder="أدخل عنوان بريدك الإلكتروني" required>
+                        <button type="submit" class="btn btn-primary" data-en="Subscribe" data-ar="اشترك">Subscribe</button>
+                    </form>
+                    
+                    <div class="newsletter-success" id="newsletterSuccess">
+                        <p data-en="Thank you for subscribing! We'll be in touch soon." data-ar="شكرًا لك على الاشتراك! سنتواصل معك قريبًا.">
+                            Thank you for subscribing! We'll be in touch soon.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer" id="contact">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3 class="footer-logo">THE JUNCTION</h3>
+                    <p data-en="A performing arts space made by performers for performers" data-ar="مساحة فنون أداء صُنعت من قِبل الفنانين للفنانين">
+                        A performing arts space made by performers for performers
+                    </p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Instagram">📷</a>
+                        <a href="#" aria-label="Facebook">📘</a>
+                        <a href="#" aria-label="Twitter">🐦</a>
+                        <a href="#" aria-label="YouTube">📺</a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4 data-en="Quick Links" data-ar="روابط سريعة">Quick Links</h4>
+                    <ul>
+                        <li><a href="#about" data-en="About Us" data-ar="من نحن">About Us</a></li>
+                        <li><a href="#stage" data-en="On Our Stage" data-ar="على مسرحنا">On Our Stage</a></li>
+                        <li><a href="#workshops" data-en="Workshops" data-ar="ورش العمل">Workshops</a></li>
+                        <li><a href="#contact" data-en="Contact" data-ar="تواصل معنا">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4 data-en="Contact Info" data-ar="معلومات التواصل">Contact Info</h4>
+                    <div class="contact-info">
+                        <p data-en="Dubai, United Arab Emirates" data-ar="دبي، الإمارات العربية المتحدة">Dubai, United Arab Emirates</p>
+                        <p>info@thejunctiondubai.com</p>
+                        <p>+971 XX XXX XXXX</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p data-en="©️2024 Theatre Junction Events LLC. All rights reserved." data-ar="©️2024 شركة ثيتر جانكشن إيفنتس ذ.م.م. جميع الحقوق محفوظة.">
+                    ©️2024 Theatre Junction Events LLC. All rights reserved.
+                </p>
+                <div class="footer-links">
+                    <a href="#" data-en="Privacy Policy" data-ar="سياسة الخصوصية">Privacy Policy</a>
+                    <a href="#" data-en="Terms & Conditions" data-ar="الأحكام والشروط">Terms & Conditions</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
