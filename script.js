@@ -457,26 +457,18 @@ document.addEventListener('DOMContentLoaded', function() {
     **********************/
     function setupGallery() {
         const galleryItems = document.querySelectorAll('.gallery-item');
-        const playButtons = document.querySelectorAll('.play-button-large, .video-placeholder');
         
         // Add click handlers for gallery items
         galleryItems.forEach(item => {
             item.addEventListener('click', () => {
-                const isVideoItem = item.classList.contains('video-item');
-                
-                if (isVideoItem) {
-                    // Handle video click - use the same video modal
-                    showVideoModal();
-                } else {
-                    // Handle image gallery click
-                    const overlay = item.querySelector('.gallery-overlay');
-                    if (overlay) {
-                        const title = overlay.querySelector('h3').textContent;
-                        const description = overlay.querySelector('p').textContent;
-                        
-                        // Create a simple modal effect
-                        showImageModal(title, description);
-                    }
+                // Handle image gallery click
+                const overlay = item.querySelector('.gallery-overlay');
+                if (overlay) {
+                    const title = overlay.querySelector('h3').textContent;
+                    const description = overlay.querySelector('p').textContent;
+                    
+                    // Create a simple modal effect
+                    showImageModal(title, description);
                 }
             });
             
