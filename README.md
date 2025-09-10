@@ -128,7 +128,7 @@ For questions about The Junction Dubai:
 
 ## 📄 License
 
-©️2024 Theatre Junction Events LLC. All rights reserved.
+©️2025 Theatre Junction Events LLC. All rights reserved.
 
 ---
 
